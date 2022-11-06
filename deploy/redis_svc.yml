@@ -2,8 +2,8 @@ apiVersion: v1
 kind: Service
 metadata:
   labels:
-    app: redic
-  name: redic
+    app: redis
+  name: redis
 spec:
   ports:
     - name: "6379"
@@ -11,5 +11,5 @@ spec:
       protocol: TCP
       targetPort: 6379
   selector:
-    app: redic
+    app: redis
   type: ClusterIP
