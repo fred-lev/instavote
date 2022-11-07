@@ -15,3 +15,6 @@ commonLabels:
 commonAnnotations:
   note: This is a staging environment
   team: devops
+configMapGenerator:
+  - name: vote-options
+    env: options.env
