@@ -4,3 +4,10 @@ resources:
   - ../../base
 patchesStrategicMerge:
   - merge.yml
+commonLabels:
+  project: instavote
+  environment: staging
+  team: devops
+commonAnnotations:
+  note: This is a staging environment
+  team: devops
