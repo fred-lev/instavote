@@ -4,3 +4,10 @@ resources:
   - ../../base
 patchesStrategicMerge:
   - merge.yml
+commonLabels:
+  project: instavote
+  environment: dev
+  team: devops
+commonAnnotations:
+  note: This is a dev environment
+  team: devops
