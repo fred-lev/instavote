@@ -8,3 +8,10 @@ replicas:
 images:
   - name: schoolofdevops/vote
     newTag: v1
+commonLabels:
+  project: instavote
+  environment: staging
+  team: devops
+commonAnnotations:
+  note: This is a staging environment
+  team: devops
